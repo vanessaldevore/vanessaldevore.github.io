@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: powderblue;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: lightsteelblue;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(230, 246, 246)
+}
+
+h1 {
+    text-decoration: underline;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+div{
+    background-color: white;
+    padding: 5px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border: 1px solid;
+}
+
+a {
+    text-align: center; 
+    color: black; 
+    background-color: rgba(229, 69, 227, 0.37); 
+    padding: 10px 30px; 
+    border: 3px solid black;
+    display: inline-block; 
+    text-align: center; 
+    font-size: 1em;
+    
+}
+
+a:hover {
+    cursor: pointer; 
+    background-color: rgba(243, 16, 201, 0.684);
+}
+
+
+
