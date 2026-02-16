@@ -1,0 +1,38 @@
+body{
+    text-align:center;
+    background-image: url("../img/butterfreeWallpaper.png");
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    color:white;
+    background-color:rgba(146, 213, 238, 0.886);
+    padding:20px;
+    margin-bottom:15px;
+}
+
+div{
+    background-color: rgba(216, 75, 247, 0.66);
+    padding: 20px;
+    border-radius: 5px;
+    border-color: black;
+    border: 1px solid;
+    text-shadow: 5px 5px 5px black;
+    color: white;
+    font-size: 25px;
+    
+}
+
+h1{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    text-decoration: underline wavy rgb(237, 35, 230);
+}
+
+h2{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+
+}
+
