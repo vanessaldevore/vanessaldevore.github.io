@@ -1,0 +1,38 @@
+body{
+    text-align:center;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    text-shadow: 5px 5px 5px rgb(84, 202, 253);
+    text-decoration: underline rgb(35, 86, 237);
+    border-radius: 50px;
+}
+
+#congratsMessage {
+    font: bold italic 30px 'Arial', sans-serif;
+    color: rgb(179, 233, 246);
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+
+#totalScore {
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 25px;
+}
+
+#totalAttempts {
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 25px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
