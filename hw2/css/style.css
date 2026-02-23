@@ -1,0 +1,34 @@
+body{
+    text-align:center;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: darkblue;
+    text-shadow: 5px 5px 5px rgb(84, 202, 253);
+    text-decoration: underline rgb(35, 86, 237);
+    border-radius: 50px;
+}
+
+#wordDisplay{
+    text-shadow: 2px 2px 4px white;
+}
+
+#message{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#wrongLetters{
+    font-size: 20px;
+    text-shadow: 2px 2px 4px white;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 160px;
+    text-align: center;
+}
