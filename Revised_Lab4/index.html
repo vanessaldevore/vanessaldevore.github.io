@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Sign Up Page </title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1> Sign Up </h1>
+    <form id="signupForm" action="welcome.html">
+
+    
+     First Name:<input type="text" name="fName"><br><br>
+     Last Name: <input type="text" name="lName"><br><br>
+     Gender:    
+         <input type="radio" name="gender" value="m">Male
+         <input type="radio" name="gender" value="f">Female<br>	<br>
+    
+
+    
+      Zip Code:  <input type="text" id="zip" name="zip"><span id="zipCodeError"></span><br>
+      City:   <span id="city"></span> <br>
+      Latitude:  <span id="latitude"></span><br>
+      Longitude: <span id="longitude"></span><br><br>
+    
+
+
+      State: 
+        <select id="state" name="state">
+                <option value="">Select One</option>
+        </select> <br><br>
+
+       Select a County: <select id="county"></select><br><br>
+   
+
+
+
+       Desired Username: 
+       <input type="text" id="username" name="username"><span id="usernameAvailError"></span><br>
+       <span id="usernameLenError"></span><br><br>
+
+        Password: <input type="password" id="password" name="password"><span id="suggestedPwd"></span> <br><br>
+        Type Password Again: <input type="password" id="retypePassword" name="retypePassword"><span id="passwordError"></span> 
+            <br><br>
+
+
+         <input id="submitBtn" type="submit" value="Sign up!">
+    
+
+    </form>
+         <script src="js/script.js"></script>
+</body>
+</html>
